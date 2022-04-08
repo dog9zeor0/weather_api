@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+header nav {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav ul {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+header nav ul li {
+  padding: 10px 30px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: #ffde6f;
+  font-weight: bold;
+  color: #646464;
+}
+
+@media (max-width: 550px) {
+  header nav ul li {
+    padding: 10px 20px;
+  }
+}
+
+header nav ul li:hover {
+  cursor: pointer;
+}
+
+header .timeRange {
+  height: 130px;
+}
+
+header .timeRange ul li {
+  background-color: #FFC288;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .box {
+  width: 200px;
+  height: 260px;
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 10px 10px 10px 16px;
+  border: 3px solid #0058a4;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.container .box:hover {
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 44, 83, 0.8);
+          box-shadow: 5px 5px 15px rgba(0, 44, 83, 0.8);
+}
+
+.container .box .icon {
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/hot.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right;
+}
+
+.container .box .city {
+  margin-top: 16px;
+  margin-bottom: 36px;
+}
+
+.container .box .info {
+  padding: 0;
+  color: #484848;
+}
+
+.container .box .info li {
+  margin: 16px 0;
+}
+/*# sourceMappingURL=weather.css.map */

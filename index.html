@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/weather.css">
+</head>
+<body>
+    <header>
+        <h1>天氣預報</h1>
+        <nav class="area">
+            <ul>
+                <li onclick="showAll()">全國</li>
+                <li onclick="showNorth()">北部</li>
+                <li onclick="showWest()">中部</li>
+                <li onclick="showSouth()">南部</li>
+                <li onclick="showEast()">東部</li>
+                <li onclick="showIsland()">離島</li>
+            </ul>
+        </nav>
+        <nav class="timeRange">
+            <ul>
+                <li onclick="showT0()"></li>
+                <li onclick="showT1()"></li>
+                <li onclick="showT2()"></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+</html>
